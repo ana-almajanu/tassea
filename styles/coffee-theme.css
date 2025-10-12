@@ -1,0 +1,97 @@
+/* ===========================
+   COFFEE THEME STYLES
+   =========================== */
+
+/* Body background */
+.md-container {
+  background-color: #f7f1e8;
+}
+
+/* Header (nav bar) */
+.md-header {
+  background-color: #6b4f37;
+}
+
+/* Hero section */
+.hero {
+  text-align: center;
+  padding: 80px 20px 60px;
+  background: linear-gradient(180deg, #f7f1e8 0%, #e8d5b7 100%);
+  border-bottom: 2px solid #c2a97f;
+}
+
+.hero-logo {
+  width: 80px;                /* mai mic */
+  max-width: 20vw;            /* se adaptează pe ecrane mari */
+  border-radius: 50%;         /* rotunjit frumos */
+  margin-bottom: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  object-fit: cover;          /* păstrează proporțiile */
+}
+
+.hero-title {
+  font-family: 'Merriweather', serif;
+  font-size: 2.8rem;
+  color: #4b2e05;
+  margin: 0;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  color: #6b4f37;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.hero-button {
+  background-color: #b36a2e;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.hero-button:hover {
+  background-color: #8b4513;
+}
+
+/* Typography */
+.md-typeset h1, .md-typeset h2, .md-typeset h3 {
+  color: #4b2e05;
+}
+
+/* Links */
+a, .md-typeset a {
+  color: #b36a2e;
+}
+
+a:hover {
+  color: #8b4513;
+}
+
+/* Admonitions (note blocks) */
+.md-typeset .admonition {
+  background-color: #fffaf2;
+  border-left: 4px solid #b36a2e;
+}
+
+/* Tables */
+.md-typeset table {
+  border-color: #c2a97f;
+}
+
+/* Footer */
+.md-footer {
+  background-color: #6b4f37;
+  color: #fff;
+}
+
+.md-typeset img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
