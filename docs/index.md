@@ -12,7 +12,7 @@
 
 # ☕ **Tassea – The Smart Loyalty Platform for Specialty Coffee Shops**
 
-Welcome to the **Tassea** — a platform designed for specialty coffee shops and their customers.  
+Welcome to **Tassea** — a platform designed for specialty coffee shops and their customers.  
 This page outlines the project concept, team, problem, solution and business model.
 
 <!-- ---
@@ -27,9 +27,9 @@ This page outlines the project concept, team, problem, solution and business mod
 | Name | Role | Email | Photo |
 |------|------|--------|-------|
 | Ana Gabiela Almăjanu | Project Manager & Backend Developer | [ana.almajanu@gmail.com](mailto:ana.almajanu@gmail.com) | ![Ana](images/ana2.jpeg) |
-| Irene Mihaela Mușat | UI/UX Designer & Frontend Developer | [irenemiha@gmail.com](mailto:irenemiha@gmail.com) | ![Irene](https://placehold.co/100x100) |
+| Irene Mihaela Mușat | UI/UX Designer & Frontend Developer | [irenemiha@gmail.com](mailto:irenemiha@gmail.com) | ![Irene](images/irene.jpeg) |
 | Cristian Constantin | Mobile App Developer & Creative Director | [constantincristian05@icloud.com](mailto:constantincristian05@icloud.com) | ![Cristian](images/cristian.jpeg) |
-| Andrei Mihai Cosmin | Backend Engineer & Database Specialist | [andreimihaicosmin@yahoo.com](mailto:andreimihaicosmin@yahoo.com) | ![Cosmin](https://placehold.co/100x100) |
+| Andrei Mihai Cosmin | Backend Engineer & Database Specialist | [andreimihaicosmin@yahoo.com](mailto:andreimihaicosmin@yahoo.com) | ![Cosmin](images/cosmin.jpeg) |
 
 > ☕ The team combines expertise in software development, UX design and business management to create a useful and scalable product.
 
@@ -38,9 +38,9 @@ This page outlines the project concept, team, problem, solution and business mod
 ## Problem Statement
 
 Most **specialty coffee shops** don’t have a loyalty or fidelity program, even though this would help in attracting more customers.  
-The traditional **stamp card system** is inconvenient — customers often forget it at home or lose it.  
+The traditional **stamp card system** is inconvenient, since customers often forget it at home or lose it.  
 
-Creating an **individual digital app** for each coffee shop isn’t practical, since:
+Creating an **individual digital app** for each coffee shop isn’t practical, thje downsides being:
 
 * it’s **expensive** and hard to maintain;
 * there’s **no widely adopted platform** focused on specialty coffee shops;
