@@ -1,0 +1,38 @@
+site_name: Tassea
+site_description: The Smart Loyalty Platform for Coffee Lovers
+theme:
+  name: material
+  language: en
+  palette:
+    scheme: default
+    primary: brown
+    accent: amber
+  font:
+    text: "Merriweather"
+    code: "Fira Code"
+  features:
+    - navigation.top
+    - toc.integrate
+    - content.code.copy
+    - content.action.edit
+extra:
+  logo: images/tassea-logo.png
+  social:
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/
+    - icon: fontawesome/brands/github
+      link: https://github.com/
+    - icon: fontawesome/solid/envelope
+      link: mailto:contact@tassea.com
+extra_css:
+  - styles/coffee-theme.css
+nav:
+  - Project Description: index.md
+markdown_extensions:
+  - admonition
+  - footnotes
+  - codehilite
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
