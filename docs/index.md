@@ -26,7 +26,7 @@ This page outlines the project concept, team, problem, solution and business mod
 
 | Name | Role | Email | Photo |
 |------|------|--------|-------|
-| Ana Gabiela Almăjanu | Project Manager & Backend Developer | [ana.almajanu@gmail.com](mailto:ana.almajanu@gmail.com) | ![Ana](images/ana2.jpeg) |
+| Ana Gabriela Almăjanu | Project Manager & Backend Developer | [ana.almajanu@gmail.com](mailto:ana.almajanu@gmail.com) | ![Ana](images/ana2.jpeg) |
 | Irene Mihaela Mușat | UI/UX Designer & Frontend Developer | [irenemiha@gmail.com](mailto:irenemiha@gmail.com) | ![Irene](images/irene.jpeg) |
 | Cristian Constantin | Mobile App Developer & Creative Director | [constantincristian05@icloud.com](mailto:constantincristian05@icloud.com) | ![Cristian](images/cristian.jpeg) |
 | Andrei Mihai Cosmin | Backend Engineer & Database Specialist | [andreimihaicosmin@yahoo.com](mailto:andreimihaicosmin@yahoo.com) | ![Cosmin](images/cosmin.jpeg) |
