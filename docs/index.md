@@ -100,6 +100,21 @@ Tassea tracks and optimizes the following:
 - Average number of visits per user  
 - Feedback and satisfaction score  
 
+### B2C (Customer Side)
+- New user signups per week/month  
+- User activation rate (first scan at a coffee shop)  
+- Daily active users (DAU)  
+- Occupancy checks per user  
+- User retention rate (week 4)  
+- Churn rate  
+
+### B2B (Business Side)
+- Number of partner coffee shops  
+- Monthly growth in onboarded shops  
+- Coffee shop retention rate  
+- Loyalty program participation (% of shop’s customers using Tassea)  
+- Churned coffee shops  
+
 ---
 
 ## Cost Structure
