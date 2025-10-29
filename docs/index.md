@@ -9,16 +9,10 @@
 
 <span id="project-description"></span>
 
-
 # ☕ **Tassea – The Smart Loyalty Platform for Specialty Coffee Shops**
 
 Welcome to **Tassea** — a platform designed for specialty coffee shops and their customers.  
 This page outlines the project concept, team, problem, solution and business model.
-
-<!-- ---
-
-## Project Title
-**Tassea – The Smart Loyalty Platform for Specialty Coffee Shops** -->
 
 ---
 
@@ -40,11 +34,8 @@ This page outlines the project concept, team, problem, solution and business mod
 Most **specialty coffee shops** don’t have a loyalty or fidelity program, even though this would help in attracting more customers.  
 The traditional **stamp card system** is inconvenient, since customers often forget it at home or lose it.  
 
-Creating an **individual digital app** for each coffee shop isn’t practical, thje downsides being:
-
-* it’s **expensive** and hard to maintain;
-* there’s **no widely adopted platform** focused on specialty coffee shops;
-* and existing “loyalty-only” apps bring **little added value** to the coffee shop.
+Creating an **individual digital app** for each coffee shop isn’t practical — it’s expensive, difficult to maintain, and there’s no widely adopted platform focused on specialty coffee shops.  
+Existing “loyalty-only” apps bring little added value to the business.
 
 ---
 
@@ -53,18 +44,18 @@ Creating an **individual digital app** for each coffee shop isn’t practical, t
 **Tassea** aims to be a **shared platform** for specialty coffee shops that provides:
 
 - **Core loyalty functionality** (customers collect points or stamps through recurring visits);  
-- **Business analytics** with easy-to-read insights about customer behavior and trends;  
-- **Real-time occupancy tracking**, updated hourly by coffee shops so users can decide where to go based on crowd levels;  
-- **Feedback & discovery features**, allowing users to explore new shops and send suggestions directly to owners.
+- **Business analytics** with insights about customer behavior and trends;  
+- **Real-time occupancy tracking**, helping users decide where to go based on crowd levels;  
+- **Feedback & discovery features**, allowing customers to explore new shops and interact directly with owners.
 
->  Tassea bridges the gap between customer engagement and valuable business data, creating a win-win ecosystem.
+> Tassea bridges the gap between customer engagement and valuable business data, creating a win-win ecosystem.
 
 ---
 
-##  Customer Segment
+## Customer Segment
 
-- Primarily **Gen Z** and **millennials under 45 years old**, who frequently visit local coffee shops and use mobile apps daily.  
-- However, the segment can vary depending on the **onboarding strategy** and **regional market**.
+Tassea primarily targets **Gen Z** and **Millennials under 45 years old**, who frequently visit local coffee shops and use mobile apps daily.  
+The segment can expand depending on the onboarding strategy and regional market.
 
 ---
 
@@ -81,39 +72,23 @@ Creating an **individual digital app** for each coffee shop isn’t practical, t
 Unlike competitors, **Tassea** goes beyond loyalty:
 
 - Real-time occupancy information  
-- Discovery page for exploring new coffee shops   
-- Feedback and communication channel between customers and shops 
+- Discovery page for exploring new coffee shops  
+- Feedback and communication channel between customers and shop owners  
 - Business analytics for shop owners  
 - A cleaner, more engaging user experience  
 
-These features **add tangible value** for both customers and businesses.
+These features add tangible value for both customers and businesses.
 
 ---
 
 ## Key Metrics
 
-Tassea tracks and optimizes the following:
+Tassea tracks and optimizes both customer and business performance indicators.
 
-- Turnover rate  
-- Customer retention  
-- Active user base  
-- Average number of visits per user  
-- Feedback and satisfaction score  
-
-### B2C (Customer Side)
-- New user signups per week/month  
-- User activation rate (first scan at a coffee shop)  
-- Daily active users (DAU)  
-- Occupancy checks per user  
-- User retention rate (week 4)  
-- Churn rate  
-
-### B2B (Business Side)
-- Number of partner coffee shops  
-- Monthly growth in onboarded shops  
-- Coffee shop retention rate  
-- Loyalty program participation (% of shop’s customers using Tassea)  
-- Churned coffee shops  
+| Category | Metrics |
+|-----------|----------|
+| **B2C (Customer Side)** | New user signups, activation rate, daily active users (DAU), occupancy checks per user, user retention, churn rate |
+| **B2B (Business Side)** | Number of partner coffee shops, monthly onboarding growth, shop retention, loyalty participation rate, churned coffee shops |
 
 ---
 
@@ -133,140 +108,72 @@ Tassea tracks and optimizes the following:
 - ☕ **Basic** – $99/month  
 - ☕ **Pro** – $149/month  
 - ☕ **Enterprise** – custom plans for larger chains  
----
-
-# 🧭 Customer Discovery & Validation Process
-
-## 1. How We Identified the Problem
-
-Most **specialty coffee shops** still use physical stamp cards for loyalty.  
-Customers often **forget** or **lose** them, leading to frustration and missed rewards, while coffee shops lose engagement data and repeat customers.
-
-Through our **Customer Discovery process** and a **Mom Test–based survey**, we confirmed that:
-
-- ☕ **67%** of respondents do not use loyalty cards consistently.  
-- 💳 **100%** experienced frustration after losing or forgetting a card.  
-- ⚙️ **50%** abandoned a loyalty system because it was too complex.  
-
-These insights validated that **the problem is real and recurring** — loyalty engagement is broken not because of disinterest, but due to poor usability and lack of centralization.
 
 ---
 
-## 2. Proposed Solution
+# 🧭 Customer Discovery & Validation
 
-To solve these pain points, we designed **Tassea**, a **shared digital loyalty platform** for specialty coffee shops.
+Before developing the platform, the team conducted a detailed **Customer Discovery** process to confirm that the problem we aimed to solve was real and worth addressing.  
+We approached this through **in-person interviews** and an **online survey** structured using the **Mom Test** framework, which focuses on real experiences and observable behavior rather than hypothetical scenarios.
 
-Tassea provides:
-- A **cross-café digital loyalty system** — no physical cards required  
-- **Real-time occupancy data** to help customers avoid crowded cafés  
-- **Business analytics dashboards** for shop owners  
-- **Feedback and discovery tools** to strengthen customer engagement  
+Participants revealed that most specialty coffee shop visitors rarely or inconsistently use loyalty cards. Many said they **forgot or lost** their physical card, while shop owners confirmed they lack a simple, unified digital solution for customer retention.  
+This confirmed that the problem wasn’t about disinterest but rather about **inconvenience and fragmentation** in existing systems.
 
----
+The insights showed clear trends:  
+- **67%** of respondents don’t use loyalty cards regularly.  
+- **100%** expressed frustration after losing or forgetting a card.  
+- **50%** abandoned a loyalty program due to complexity.  
 
-## 3. Customer Discovery Plan
-
-We followed the **Customer Discovery process** and **Mom Test methodology**, focusing on real experiences rather than opinions:
-
-1. Define hypotheses about key problems (loyalty inconvenience, poor analytics, crowding).  
-2. Identify and segment users (18–45 y/o coffee lovers and shop owners).  
-3. Conduct interviews and surveys focused on *past behavior*.  
-4. Validate pain intensity before testing the solution.  
-5. Refine the MVP based on findings.  
+Beyond loyalty, **83%** of participants said they had left a café because it was too crowded — a key validation for adding **real-time occupancy tracking**.  
+They also shared that **Instagram** is their main source for discovering cafés, while **83%** delete retail app notifications immediately, suggesting that **pull-based engagement** works better than intrusive push notifications.
 
 ---
 
-## 4. Process & Findings
+### Key Research Insights
 
-### 🎯 Target Segments
-- **Primary:** Gen Z & Millennials (18–45), frequent visitors of specialty cafés.  
-- **Secondary:** Coffee shop owners and managers open to digital transformation.
-
-### 📋 Research Methods
-- Face-to-face interviews with café customers  
-- Online survey distributed via Instagram coffee communities  
-- Follow-up questionnaires for quantifiable insights  
-
-### 🧩 Methodology
-A **13-question survey** built using *The Mom Test* framework to ensure unbiased responses (focused on *past behavior* and *real pain*).
-
----
-
-### 📊 Key Questions & Insights
-
-| # | Question (Shortened) | Key Finding | Validation Purpose |
-|---|----------------------|--------------|--------------------|
-| 1 | Why return to a café? | 83% said quality, 33% price/location | Loyalty is secondary to experience |
-| 2 | Use loyalty cards? | 67% rarely/never | Adoption gap exists |
-| 3 | Forgot your card? | 100% frustration | Emotional pain validated |
-| 4 | Quit a loyalty system? | 50% yes – too complicated | Simplicity is crucial |
-| 5 | Reward to switch cafés? | Free coffee/discount | Hypothetical – validate later |
-| 6 | Left due to crowding? | 83% yes | Real-time occupancy valuable |
-| 7 | How long wait before leaving? | 10 min average | Defines queue visibility need |
-| 8 | Top 2 factors when working in café? | Power outlets, quiet | Confirms “work spot” insight |
-| 9 | How decide to enter? | Based on crowd visibility | Validates live occupancy need |
-| 10 | How discover new cafés/events? | 67% Instagram | Validates social-first marketing |
-| 11 | How react to notifications? | 83% delete instantly | Avoid push; use pull UX |
-| 12 | What info want from cafés? | Offers, new products | Sets content focus |
-| 13 | Curious about popular drinks? | 83% yes | Validates gamification idea |
-
-**✅ 9/13 questions passed** the full Mom Test (real behavior focus).  
-**⚠️ 4 questions** were hypothetical and require validation during MVP testing.
+| Question Focus | Main Finding | Validation Insight |
+|----------------|---------------|--------------------|
+| Why return to a café? | Quality and atmosphere matter most | Loyalty should support, not replace, experience |
+| Use of loyalty cards | Low adoption (67% non-users) | Confirms usability gap |
+| Forgotten card experiences | 100% frustration | Strong emotional pain point |
+| Abandoning loyalty programs | 50% due to complexity | Need for simplicity |
+| Leaving cafés due to crowds | 83% of users | Validates occupancy tracking feature |
+| Discovering cafés/events | 67% via Instagram | Social-first marketing strategy |
+| Notification behavior | 83% delete instantly | Avoid push; use pull UX |
+| Curiosity about popular drinks | 83% interest | Opportunity for gamification and social proof |
 
 ---
 
-## 5. Impact on Product Development
+### Product Impact
 
-| Insight | Product Decision |
-|----------|------------------|
-| Card loss frustration | Introduced a fully digital loyalty wallet |
-| Complexity kills engagement | Designed one-tap stamp/scan system |
-| Crowding drives abandonment | Added real-time occupancy tracking |
-| Notification fatigue | Replaced push with in-app pull content |
-| Instagram discovery | Built marketing around social-first strategy |
-| Curiosity about trends | Added “Top Drinks” leaderboard |
-
----
-
-## 6. Readiness for Customer Validation
-
-✅ **We are ready to move to the Customer Validation stage.**
-
-### Supporting Arguments:
-- The **problem** has been validated through behavioral data, not opinions.  
-- The **pain intensity** (lost cards, crowding, app fatigue) shows measurable demand.  
-- Our **solution aligns** with user needs and behavioral patterns.  
-- The MVP is adjusted to include only validated, high-value features.  
-
-Next phase:  
-→ **Pilot tests** with real coffee shops to measure adoption and willingness to pay.  
-→ **A/B testing** rewards and features (digital stamps vs. offers).  
+| Research Insight | Design Decision |
+|------------------|----------------|
+| Lost or forgotten cards | Introduced fully digital loyalty wallet |
+| Complexity discourages users | One-tap stamp and reward collection |
+| Overcrowding issues | Added real-time occupancy tracking |
+| Notification fatigue | Replaced push notifications with in-app updates |
+| Instagram discovery behavior | Built marketing around social-first channels |
+| Curiosity for trends | Introduced “Top Drinks” leaderboard and discovery feed |
 
 ---
 
-## 7. Evidence & Proof
+### From Discovery to Validation
 
-- 📄 Full survey analysis: `survey_analysis_mom_test.md.pdf`  
-- 📸 Interview transcripts and survey screenshots (available upon request)  
-- 🌐 Tassea prototype and landing page for validation testing  
+These findings guided the development of **Tassea’s MVP**, focusing only on the most validated and high-value features.  
+The problem has been verified through user behavior, emotional responses, and measurable patterns.  
+The proposed solution aligns directly with what customers and café owners actually need: a digital, unified, simple, and data-driven loyalty experience.
 
----
+Having confirmed the problem’s validity, the team is ready to move forward to the **Customer Validation stage**, where the goal is to test **real-world adoption** and **willingness to pay** through pilot programs with local coffee shops.  
+Future testing will include A/B experiments with different reward structures, engagement metrics, and business conversion rates.
 
-## ☕ Summary
-
-Through behavioral validation and direct customer insight, **Tassea** has proven that the problem of lost loyalty engagement in specialty coffee shops is both **real** and **actionable**.  
-We are now ready to test **solution adoption** and **revenue potential** in real-world conditions — the next step toward building the **smart loyalty platform for coffee lovers**.
-
----
-<!-- --- -->
-
-<!-- ## 📎 Resources & References
-
-🔗 [Tassea Concept Presentation](https://g.co/gemini/share/e2a472fe6f45) -->
+All evidence — including survey data, interview summaries, and the full analysis — has been archived and attached as proof of the discovery phase.
 
 ---
 
 ### Summary
 
-**Tassea** offers more than a loyalty app — it’s a **data-driven, user-friendly platform** that strengthens the bond between customers and specialty coffee shops.  
-With analytics, engagement tools, and convenience features, Tassea creates value for everyone involved in the coffee experience.
+Through thorough customer discovery and behavioral validation, **Tassea** confirmed that the lack of a unified, digital loyalty experience is a real and recurring problem in the specialty coffee market.  
+The proposed solution provides measurable value for both customers and business owners, laying the foundation for a sustainable and scalable platform.  
+Built on validated insights, **Tassea** stands as a smart, data-driven bridge between coffee lovers and their favorite cafés.
+
+---
