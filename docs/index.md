@@ -111,7 +111,7 @@ Tassea tracks and optimizes both customer and business performance indicators.
 
 ---
 
-# 🧭 Customer Discovery & Validation
+## Customer Discovery & Validation
 
 Before developing the platform, the team conducted a detailed **Customer Discovery** process to confirm that the problem we aimed to solve was real and worth addressing.  
 We approached this through **in-person interviews** and an **online survey** structured using the **Mom Test** framework, which focuses on real experiences and observable behavior rather than hypothetical scenarios.
