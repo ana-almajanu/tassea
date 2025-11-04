@@ -121,6 +121,34 @@ We approached this through **in-person interviews**, **interviews over the phone
 
 ### Interviews with different coffe shop owners
 
+**Noi.2 Cafe – Coffess Shop Owner Interview**
+
+1. Când vă gândiți la succesul vostru, cât de importantă este retenția clienților față de atragerea de clienți noi?
+Depinde de grupul de clienți. Dacă vorbim de categoria 16–20 de ani, nu este foarte important să rămână constanți, pentru că în industria cafenelelor de specialitate, prețurile sunt destul de ridicate, iar acest grup de vârstă consumă foarte puțin. Mai important pentru o cafenea este să aibă o comunitate și un grup puternic cuprins între 25 de ani în sus, pentru că aceștia au putere de cumpărare și pe aceștia ne dorim să-i fidelizăm cât de bine putem. Dacă aș fi un 5toGo, atunci m-aș axa pe cât mai mulți clienți noi, cât mai mulți în fiecare zi. În cazul nostru, vreau să îmi țin clienții cât mai aproape, pentru că am categoria 25+.
+
+2. Care simțiți că este cea mai mare provocare în a transforma un client care intră prima dată într-una din locații într-un client fidel?
+În prezent, în noiembrie 2025, este prețul. S-a scumpit foarte mult materia primă, de asemenea și taxele și impozitele; acest dezechilibru economic din țară la momentul actual creează cea mai mare provocare de a menține prețuri competitive. Pe lângă acest aspect, cea mai mare provocare ar fi să-i oferi clientului aceeași calitate de luni până duminică.
+
+3. Ați încercat vreodată în trecut un sistem de a răsplăti clienții fideli?
+Da, avem. Clienții apreciază gratuități și discounturi.
+
+4. Aveți vreo metodă acum prin care să puteți lua legătura direct cu cei mai fideli clienți ai voștri, separat de publicul larg de pe social media?
+Avem o comunitate pe WhatsApp, unde postăm informații și oferte. Cei care doresc să intre ne scriu direct când vor să facă parte din comunitate, ori intră direct folosind linkul de pe pagina de Instagram. Sunt destul de puțini; nu este un engagement foarte mare pe partea aceasta.
+
+5. Ați avut vreodată o situație în care ați fi vrut să știți mai multe despre tipologia clienților voștri (de ex. vârstă, frecvența vizitelor) pentru a lua o decizie de business? Puteți să-mi dați un exemplu?
+Nu.
+
+6. Gestionarea fluxului de clienți și a locurilor disponibile este vreodată o provocare?
+Poate să fie. Fiind o locație cu număr de locuri limitat, în weekend mai întâmpinăm probleme când oamenii vin și văd că toate mesele sunt ocupate, dar face parte din fluxul de clienți, din viața unei cafenele. Nu aș numi asta o problemă; este ceva normal.
+
+7. Simțiți că pierdeți clienți în orele de vârf pentru că locația pare plină din exterior sau pentru că timpul de așteptare e prea mare?
+Sunt clienți care iau to-go. Clienții care vin de weekend, de la o plimbare, nu vin neapărat cu scopul de a găsi o masă. Dacă vin și găsesc loc, sunt fericiți; dacă nu, pleacă mai departe.
+
+8. Să presupunem că lansați o nouă băutură, schimbați meniul sau organizați un eveniment. Cum anunțați clienții despre asta în momentul de față?
+Instagram și WhatsApp. Plus, dacă evenimentul este vineri, de luni până joi spunem despre acesta tuturor celor care vin la cafenea.
+
+---
+
 **MUGSHOT – Coffess Shop Owner Interview**
 
 1. Când vă gândiți la succesul vostru, cât de importantă este retenția clienților față de atragerea de clienți noi?
@@ -143,7 +171,6 @@ Nu, pentru că avem locuri oarecum limitate și știm cum să le organizăm în 
 
 7. Simțiți că pierdeți clienți în orele de vârf pentru că locația pare plină din exterior sau pentru că timpul de așteptare e prea mare?
 Nu, nu ne-am confruntat cu această problemă până acum.
----
 
 ---
 
