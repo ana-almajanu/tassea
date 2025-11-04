@@ -117,6 +117,8 @@ Tassea tracks and optimizes both customer and business performance indicators.
 Before developing the platform, the team conducted a detailed **Customer Discovery** process to confirm that the problem we aimed to solve was real and worth addressing.  
 We approached this through **in-person interviews**, **interviews over the phone** and an **online survey** structured using the **Mom Test** framework, which focuses on real experiences and observable behavior rather than hypothetical scenarios.
 
+---
+
 ### Interviews with different coffe shop owners
 
 **MUGSHOT – Coffess Shop Owner Interview**
@@ -141,8 +143,11 @@ Nu, pentru că avem locuri oarecum limitate și știm cum să le organizăm în 
 
 7. Simțiți că pierdeți clienți în orele de vârf pentru că locația pare plină din exterior sau pentru că timpul de așteptare e prea mare?
 Nu, nu ne-am confruntat cu această problemă până acum.
+---
 
-### Onlie survey targeting customers
+---
+
+### Online survey targeting customers
 
 Participants revealed that most specialty coffee shop visitors rarely or inconsistently use loyalty cards. Many said they **forgot or lost** their physical card, while shop owners confirmed they lack a simple, unified digital solution for customer retention.  
 This confirmed that the problem wasn’t about disinterest but rather about **inconvenience and fragmentation** in existing systems.
