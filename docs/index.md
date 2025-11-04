@@ -111,35 +111,30 @@ Tassea tracks and optimizes both customer and business performance indicators.
 
 ---
 
-<details>
-  <summary>MUGSHOT – Interviu cu Proprietarii de Cafenea</summary>
-
-**1. Când vă gândiți la succesul vostru, cât de importantă este retenția clienților față de atragerea de clienți noi?**  
-Destul de importantă, deoarece clienții vechi aduc clienți noi, fie prin mijloacele de socializare, fie prin viu grai.
-
-**2. Ați încercat vreodată în trecut un sistem de a răsplăti clienții fideli?**  
-Da, fie le oferim reduceri consistente, fie le oferim ceva din partea casei.
-
-**3. Să presupunem că lansați o nouă băutură, schimbați meniul sau organizați un eveniment. Cum anunțați clienții despre asta în momentul de față?**  
-Promovăm evenimentele prin social media, în special Instagram, dar și prin promovare offline în cafenea.
-
-**4. Aveți vreo metodă acum prin care să puteți lua legătura direct cu cei mai fideli clienți ai voștri, separat de publicul larg de pe social media?**  
-Nu, din păcate, momentan nu.
-
-**5. Ați avut vreodată o situație în care ați fi vrut să știți mai multe despre tipologia clienților voștri (de ex. vârstă, frecvența vizitelor) pentru a lua o decizie de business? Puteți să-mi dați un exemplu?**  
-Nu, pentru că în momentul de față este destul de ușor să ne dăm seama cine ne trece pragul și cât de des vin, fiindcă ne aflăm între trei colegii/universități/licee. De obicei, oaspeții de dimineață sunt studenți și elevi, iar cei de seară sunt fie oameni din comunitate, persoane din acest cartier, fie persoane care au auzit de noi și vor să încerce băuturile, în special cocktailurile.
-
-**6. Gestionarea fluxului de clienți și a locurilor disponibile este vreodată o provocare?**  
-Nu, pentru că avem locuri oarecum limitate și știm cum să le organizăm în funcție de clienți.
-
-**7. Simțiți că pierdeți clienți în orele de vârf pentru că locația pare plină din exterior sau pentru că timpul de așteptare e prea mare?**  
-Nu, nu ne-am confruntat cu această problemă până acum.
-
-</details>
-
-
 
 ## Customer Discovery & Validation
+
+???+ note "MUGSHOT – Coffess Shop Owner Interview"
+    **1. Când vă gândiți la succesul vostru, cât de importantă este retenția clienților față de atragerea de clienți noi?**  
+    Destul de importantă, deoarece clienții vechi aduc clienți noi, fie prin mijloacele de socializare, fie prin viu grai.
+
+    **2. Ați încercat vreodată în trecut un sistem de a răsplăti clienții fideli?**  
+    Da, fie le oferim reduceri consistente, fie le oferim ceva din partea casei.
+
+    **3. Să presupunem că lansați o nouă băutură, schimbați meniul sau organizați un eveniment. Cum anunțați clienții despre asta în momentul de față?**  
+    Promovăm evenimentele prin social media, în special Instagram, dar și prin promovare offline în cafenea.
+
+    **4. Aveți vreo metodă acum prin care să puteți lua legătura direct cu cei mai fideli clienți ai voștri, separat de publicul larg de pe social media?**  
+    Nu, din păcate, momentan nu.
+
+    **5. Ați avut vreodată o situație în care ați fi vrut să știți mai multe despre tipologia clienților voștri (de ex. vârstă, frecvența vizitelor) pentru a lua o decizie de business? Puteți să-mi dați un exemplu?**  
+    Nu, pentru că în momentul de față este destul de ușor să ne dăm seama cine ne trece pragul și cât de des vin, fiindcă ne aflăm între trei colegii/universități/licee. De obicei, oaspeții de dimineață sunt studenți și elevi, iar cei de seară sunt fie oameni din comunitate, persoane din acest cartier, fie persoane care au auzit de noi și vor să încerce băuturile, în special cocktailurile.
+
+    **6. Gestionarea fluxului de clienți și a locurilor disponibile este vreodată o provocare?**  
+    Nu, pentru că avem locuri oarecum limitate și știm cum să le organizăm în funcție de clienți.
+
+    **7. Simțiți că pierdeți clienți în orele de vârf pentru că locația pare plină din exterior sau pentru că timpul de așteptare e prea mare?**  
+    Nu, nu ne-am confruntat cu această problemă până acum.
 
 Before developing the platform, the team conducted a detailed **Customer Discovery** process to confirm that the problem we aimed to solve was real and worth addressing.  
 We approached this through **in-person interviews** and an **online survey** structured using the **Mom Test** framework, which focuses on real experiences and observable behavior rather than hypothetical scenarios.
