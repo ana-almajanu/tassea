@@ -121,6 +121,8 @@ We approached this through **in-person interviews**, **interviews over the phone
 
 ### Interviews with different coffe shop owners
 
+> The recordings for the interviews that took place over the phone can be found here: https://drive.google.com/drive/folders/1Bqm3PT7d_mWMIck6K7O33ANU9BYIiXeq
+
 **Noi.2 Cafe – Coffess Shop Owner Interview**
 
 1. Când vă gândiți la succesul vostru, cât de importantă este retenția clienților față de atragerea de clienți noi?
@@ -171,6 +173,43 @@ Nu, pentru că avem locuri oarecum limitate și știm cum să le organizăm în 
 
 7. Simțiți că pierdeți clienți în orele de vârf pentru că locația pare plină din exterior sau pentru că timpul de așteptare e prea mare?
 Nu, nu ne-am confruntat cu această problemă până acum.
+
+---
+
+**Loom68 – Coffess Shop Owner Form Answers**
+
+1. Când vă gândiți la succesul celor două locații, cât de importantă este retenția clienților față de atragerea de clienți noi?
+Foarte importantă. Lucrăm constant prin marketing pentru a atrage clienți noi și pentru a ne mări comunitatea.
+
+2. Ce faceți în prezent pentru a încuraja clienții să revină la Loom68?
+Păstrăm calitatea serviciilor și găsim mereu soluții noi de fidelizare. De exemplu, am lansat propriul nostru brand de cafea, în parteneriat cu Origo.
+
+3. Care considerați că este cea mai mare provocare în a transforma un client care intră prima dată în locație într-un client fidel?
+Educarea lui în ceea ce privește specialty coffee și diferențierea noastră față de alte cafenele.
+
+4. Ați încercat vreodată în trecut un sistem de răsplătire a clienților fideli Loom68?
+Suntem în proces de a-l implementa.
+
+5. Să presupunem că lansați o nouă băutură, schimbați meniul sau organizați un eveniment. Cum anunțați clienții despre asta în prezent?
+Momentan doar prin Instagram, dar vrem să introducem și un newsletter pe e-mail.
+
+6. Aveți acum vreo metodă prin care să luați legătura direct cu cei mai fideli clienți ai voștri, separat de publicul larg de pe Instagram?
+În afară de Instagram, nu avem nimic direct.
+
+7. Cum realizați în prezent o analiză a clienților care vizitează Loom68 și a trendurilor, precum orele cele mai aglomerate sau cele mai comandate produse din meniu?
+Prin intermediul rapoartelor de vânzări, al stocurilor și al datelor din Google Maps privind orele de vârf la care oamenii caută cafeneaua.
+
+8. Ce fel de date despre vânzări sau clienți urmăriți în prezent? Folosiți rapoartele de la casa de marcat (POS)?
+Da, folosim programul de vânzare, foi de calcul și rapoarte legate de bonul mediu și de situația financiară.
+
+9. Ați avut vreodată o situație în care ați fi vrut să știți mai multe despre tipologia clienților voștri (de exemplu: vârstă, frecvența vizitelor) pentru a lua o decizie de business pentru Loom68? Puteți să-mi dați un exemplu?
+Până acum nu ne-am confruntat cu o astfel de situație, dar mi-ar plăcea să avem acces la astfel de informații.
+
+10. Gestionarea fluxului de clienți și a locurilor disponibile este vreodată o provocare?
+Momentan nu, dar pregătim ceva destul de radical în privința asta.
+
+11. Simțiți că pierdeți clienți în orele de vârf pentru că locația pare plină din exterior sau din cauza timpului de așteptare prea mare?
+Nu.
 
 ---
 
