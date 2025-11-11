@@ -269,6 +269,13 @@ All evidence — including survey data, interview summaries, and the full analys
 
 ---
 
+### Milestone 3
+
+**Landing Page** - https://irenemiha.github.io/Tassea-Landing-Page/
+**Wireframe** - https://www.figma.com/design/JDFKhxI5rnJhUW1H8a17LA/Tassea-mobile-wireframe?node-id=0-1&t=nqhdsxksdpX9vvM0-1
+
+---
+
 ### Summary
 
 Through thorough customer discovery and behavioral validation, **Tassea** confirmed that the lack of a unified, digital loyalty experience is a real and recurring problem in the specialty coffee market.  
