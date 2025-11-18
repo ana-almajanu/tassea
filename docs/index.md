@@ -269,12 +269,313 @@ All evidence — including survey data, interview summaries, and the full analys
 
 ---
 
-### Milestone 3
+## Milestone 3
 
-**Landing Page** - https://irenemiha.github.io/Tassea-Landing-Page/
+**Landing Page** -https://irenemiha.github.io/Tassea-Landing-Page/
+
 **Wireframe** - https://www.figma.com/design/JDFKhxI5rnJhUW1H8a17LA/Tassea-mobile-wireframe?node-id=0-1&t=nqhdsxksdpX9vvM0-1
 
 ---
+# **Milestone 4 – Face-to-Face Interviews, Persona, User Stories, Use Cases & Updated Wireframes**
+
+## **1. Face-to-Face User Interviews**
+
+### 📂 Link către înregistrări interviuri  
+https://drive.google.com/drive/folders/XXX *(înlocuiește cu linkul tău)*
+
+---
+
+# **INTERVIURI FACE-TO-FACE CU OAMENI CE APARTIN TARGETED CUSTOMER SEGMENT**
+
+=== "Interviu: Ana & Marius"
+
+    **Ana**  
+    Bună. Povestește-mi de ultima dată când ai folosit o aplicație de loialitate pentru o cafenea de specialitate.  
+    Cum a fost procesul pas cu pas?
+
+    **Marius**  
+    Nu cred că am folosit vreodată o aplicație de genul. Pare ceva ce poate ar trebui să folosesc, dar doar îmi place să dau mulți bani.  
+    Nu folosesc.
+
+    **Ana**  
+    Ce aplicații folosești în momentul de față, care stochează toate cardurile de loialitate pentru diverse cafenele?
+
+    **Marius**  
+    Presupun că aș folosi ceva gen Apple Wallet sau Google Wallet, sau… nu știu, cred că așa se numesc.
+
+    **Ana**  
+    Ok. Ce frustrări ai întâmpinat în procesul curent de a folosi un card de loialitate?
+
+    **Marius**  
+    Având în vedere că n-am folosit până acum, niciuna.
+
+    **Ana**  
+    Ce frustrare ai întâmpinat când ai vrut să vezi cât de ocupată este o cafenea?
+
+    **Marius**  
+    Niciuna, adică, de obicei, mă uit pe geam și văd.
+
+    **Ana**  
+    Cât de des folosești cardul de loialitate?
+
+    **Marius**  
+    Destul de rar.
+
+    **Ana**  
+    Când te-ai lovit ultima dată de un moment în care ai fi vrut ca procesul să fie mai ușor pentru folosirea unor carduri de loialitate?
+
+    **Marius**  
+    La un moment dat foloseam card de loialitate la Mega Image și s-a actualizat aplicația și mi-a uitat cardul, iar eu nu mi l-am mai pus din nou, că era prea complicat.
+
+    **Ana**  
+    Ok, e în regulă. Acum o să-ți arăt aplicația.  
+    Aici este ecranul de login.  
+    Aici apare cardul de loialitate. Pentru ce crezi că este acest ecran?
+
+    **Marius**  
+    Păi probabil pentru rewards, având în vedere că scrie.
+
+    **Ana**  
+    Dacă ai vrea să folosești un card de loialitate pentru a revendica un premiu, pe ce butoane ai apăsa?
+
+    **Marius**  
+    Nu știu, ori de jos, de la „Rewards”, sau...  
+    Pentru prima cafenea aș apăsa pe săgeată sau pe cardul ăla.
+
+    **Ana**  
+    Ok. Este ceva neclar sau neașteptat în procesul de a folosi această aplicație?
+
+    **Marius**  
+    Nu știu, pare ok.
+
+    **Ana**  
+    Ți se pare că lipsește vreun pas sau vreo informație necesară?
+
+    **Marius**  
+    N-aș zice.
+
+    **Ana**  
+    Ce crezi că se va întâmpla dacă apeși butonul de „Feed”?
+
+    **Marius**  
+    Habar n-am.
+
+    **Ana**  
+    Ți se pare un proces greoi sau ok?
+
+    **Marius**  
+    Nu mi-am dat seama cum s-ar sincroniza cardurile. Asta nu e clar.
+
+    **Ana**  
+    Pornind de la ce ai văzut, când ai avut nevoie să vezi câte puncte ai?
+
+    **Marius**  
+    Nu știu, nu cred că m-am uitat vreodată.
+
+    **Ana**  
+    Ce faci acum pentru a urmări punctele?
+
+    **Marius**  
+    Nimic, nu am card.
+
+    **Ana**  
+    Ce te-ar face să folosești aplicația?
+
+    **Marius**  
+    Să fie super rapidă (10 secunde).
+
+    **Ana**  
+    Care a fost ultima dată când ai economisit timp cu o aplicație de loialitate?
+
+    **Marius**  
+    Niciodată.
+
+    **Ana**  
+    Poți să-mi povestești o situație în care ai fi vrut o aplicație ca aceasta?
+
+    **Marius**  
+    Nu.
+
+    **Ana**  
+    Ce funcții folosești într-o aplicație similară?
+
+    **Marius**  
+    Rewards, dar nu Discovery.
+
+    **Ana**  
+    O aplicație pe care nu ai mai folosi-o?
+
+    **Marius**  
+    Mega Image – mi-a pierdut cardul și m-am lăsat.
+
+    **Ana**  
+    Ok, mulțumesc.
+
+
+=== "Interviu: Ana & Ilinca"
+
+    **Ana**  
+    Bună.
+
+    **Ilinca**  
+    Bună.
+
+    **Ana**  
+    Povestește-mi de ultima dată când ai folosit o aplicație de loialitate...
+
+    **Ilinca**  
+    Ultima dată a fost acum 1–2 săptămâni.  
+    Procesul e simplu: deschid cardul și îl arăt.
+
+    **Ana**  
+    Ce aplicații folosești acum?
+
+    **Ilinca**  
+    Wallet de la telefon. E mai rapid, îl deschid prin dublu clic.
+
+    **Ana**  
+    Frustrări?
+
+    **Ilinca**  
+    Uneori cardurile nu merg. Nu știu de ce.  
+    Legat de cât de ocupată e o cafenea… nu stau acolo, iau cafeaua to go.
+
+    **Ana**  
+    Cât de des folosești cardul?
+
+    **Ilinca**  
+    O dată pe săptămână.
+
+    **Ana**  
+    Când ai vrut proces mai ușor?
+
+    **Ilinca**  
+    Când mi-am făcut cardul prima dată – nu mergea să mă găsească în sistem.
+
+    **Ana**  
+    Acesta este ecranul de Rewards. Ce crezi că este?
+
+    **Ilinca**  
+    Cardurile.
+
+    **Ana**  
+    Dacă ai vrea să revendici un premiu?
+
+    **Ilinca**  
+    Pe iconița de cadou.
+
+    **Ana**  
+    Ceva neclar?
+
+    **Ilinca**  
+    E un pic monotonă aplicația. N-are nimic care să te atragă.
+
+    **Ana**  
+    Lipsește vreun pas?
+
+    **Ilinca**  
+    Nu, dar sunt aranjate în așa fel încât nu-ți vine să apeși pe ele.
+
+    **Ana**  
+    Ce se întâmplă dacă apeși pe Feed?
+
+    **Ilinca**  
+    Probabil apar mai multe cafenele sau informații.
+
+    **Ana**  
+    Te-ai simțit blocată?
+
+    **Ilinca**  
+    La partea de unde revendici premiul – nu sare în ochi.
+
+    **Ana**  
+    Când ai avut nevoie să verifici punctele?
+
+    **Ilinca**  
+    Când am primit un mail că am atins un anumit număr, dar de obicei intru în aplicația cafenelei.
+
+    **Ana**  
+    Ce te face să folosești aplicația?
+
+    **Ilinca**  
+    Simplitatea și faptul că nu caut în emailuri.  
+    Ce m-ar îndepărta: acces greoi la puncte.
+
+    **Ana**  
+    Ce funcții folosești cel mai mult?
+
+    **Ilinca**  
+    Punctele. Nu folosesc Near Me.
+
+    **Ana**  
+    O aplicație pe care ai încetat să o folosești?
+
+    **Ilinca**  
+    Starbucks – cardul lor nu mergea nici la plată, nici la scanare.
+
+    **Ana**  
+    Mulțumesc.
+
+
+---
+
+# **2. User Persona**
+
+## Persona – *The Busy Coffee Lover*
+- Nume: Ilinca Popescu  
+- Vârstă: 21  
+- Ocupație: Studentă  
+- Motivatii: procese rapide, clare  
+- Pain points: carduri care nu merg, UI monotone, premii greu de găsit  
+- Nevoi: claritate, vizibilitate, 0 fricțiune
+
+---
+
+# **3. User Stories**
+
+- Ca utilizator, vreau să adaug un card în <10 secunde.  
+- Ca utilizator, vreau să văd câte puncte am clar.  
+- Ca utilizator, vreau un UI atractiv.  
+- Ca utilizator, vreau procese fără erori.
+
+---
+
+# **4. Use Cases / User Flows**
+
+### Flow – Revendicare premiu
+1. Intră în Rewards  
+2. Selectează card  
+3. Apasă Redeem  
+4. Se afișează QR  
+5. Barista scanează  
+
+### Flow – Add Card
+1. Add Card  
+2. Select coffee shop  
+3. Scan QR  
+4. Card added  
+
+---
+
+# **5. Updated Wireframes**
+
+Modificări necesare:
+- butonul Redeem vizibil  
+- carduri mai vizibile  
+- ghid scurt  
+- login simplificat  
+- indicator puncte  
+- funcția Feed clarificată  
+
+---
+
+# **6. Concluzie**
+
+Interviurile au confirmat nevoia de simplitate, claritate și viteză. Wireframe-urile și fluxurile au fost actualizate ca răspuns direct la feedback-ul real al utilizatorilor.
+
+
+
+
 
 ### Summary
 
