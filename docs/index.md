@@ -299,22 +299,25 @@ The proposed solution aligns directly with what customers and café owners actua
 
 Having confirmed the problem’s validity, the team is ready to move forward to the **Customer Validation stage**, where the goal is to test **real-world adoption** and **willingness to pay** through pilot programs with local coffee shops.  
 Future testing will include A/B experiments with different reward structures, engagement metrics, and business conversion rates.
-.
 
 ---
 
-## Milestone 3 - Landing Page and Wireframe
+## **Milestone 3 - Landing Page and Wireframe**
 
-**Landing Page** -https://irenemiha.github.io/Tassea-Landing-Page/
+### **Landing Page** 
 
-**Wireframe** - https://www.figma.com/design/JDFKhxI5rnJhUW1H8a17LA/Tassea-mobile-wireframe?node-id=0-1&t=nqhdsxksdpX9vvM0-1
+https://irenemiha.github.io/Tassea-Landing-Page/
+
+### **Wireframe** 
+
+https://www.figma.com/design/JDFKhxI5rnJhUW1H8a17LA/Tassea-mobile-wireframe?node-id=0-1&t=nqhdsxksdpX9vvM0-1
 
 ---
-## Milestone 4 – Face-to-Face Interviews, Persona, User Stories, Use Cases & Updated Wireframes**
+## **Milestone 4 – Face-to-Face Interviews, Persona, User Stories, Use Cases & Updated Wireframes**
 
-## **1. Face-to-Face User Interviews**
+### **Face-to-Face User Interviews**
 
-### Link to the recorded interviews  
+**Link to the recorded interviews**  - https://drive.google.com/drive/folders/1slP7vBlLztdQ4nviRn6BNh3Lw81_w3bf?usp=sharing
 
 ??? note "Transcriere Interviu – Ana (Intervievator) & Marius (Participant)"
 
@@ -695,7 +698,7 @@ Future testing will include A/B experiments with different reward structures, en
 
 ---
 
-### **User Persona**
+###**User Persona**
 
 **Persona 1 – The Busy Coffee Lover (Ilinca)**
 
@@ -815,6 +818,7 @@ Future testing will include A/B experiments with different reward structures, en
 ### **Updates Needed for Wireframe**
 
 Required changes:
+
 - Make the **Redeem** button highly visible  
 - Increase visibility and emphasis on loyalty cards  
 - Add a short onboarding guide or micro-tutorial  
