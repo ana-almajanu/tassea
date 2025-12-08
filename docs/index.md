@@ -833,6 +833,291 @@ The wireframes and user flows have been updated directly based on real user feed
 
 
 --- 
+--- 
+
+## **Milestone 6 - Market Research**
+
+### **1. Target Market Size (TAM / SAM / SOM)**
+
+### 1.1. Market Definition
+
+**B2B – Paying customers (Tassea’s direct clients)**  
+- Independent **specialty coffee shops** and small specialty chains.  
+- Initial geography: **Romania**, starting with major cities (Bucharest, Cluj, Timișoara, Iași, Brașov).  
+- Future expansion: **Central & Eastern Europe**, then **wider Europe**.
+
+**B2C – End users (free side of the platform)**  
+- **Gen Z and Millennials (<45 y.o.)**  
+- Heavy mobile users, frequent café visitors.  
+- They use Instagram, Apple/Google Wallet and are familiar with loyalty systems.
+
+---
+
+### 1.2. Number of Specialty Coffee Shops
+
+> All numbers below are *reasonable estimates* based on public info and growth trends.
+
+- **Europe (TAM)**  
+  - Approx. **5,500+ specialty coffee shops** and roasteries.
+
+- **Central & Eastern Europe (SAM – Regional)**  
+  - We approximate **~600 specialty coffee shops** relevant for Tassea.
+
+- **Romania (SAM – Initial focus)**  
+  - Based on growth of the specialty scene, we estimate **~180–200 specialty coffee shops**.
+
+---
+
+### 1.3. Revenue Assumptions per Coffee Shop
+
+Tassea’s B2B model is subscription-based:
+
+- **Basic** – 99 USD / month  
+- **Pro** – 149 USD / month  
+- **Enterprise** – custom
+
+For simplicity, we assume an **average of 110 €/month / coffee shop**, which gives:
+
+> **1,320 €/year / coffee shop**
+
+Using that, we can approximate the **maximum annual revenue Tassea could generate** if it dominated each market:
+
+- **TAM – Europe**  
+  - 5,555 cafés × 1,320 €/year ≈ **7.3 M€ / year**
+
+- **SAM – Central & Eastern Europe**  
+  - 600 cafés × 1,320 €/year ≈ **0.79 M€ / year**
+
+- **SAM – Romania** (realistic launch market)  
+  - 200 cafés × 1,320 €/year ≈ **0.264 M€ / year**
+
+For this milestone, it is realistic to say:
+
+> In the first five years, Tassea will primarily target **the Romanian specialty coffee market (SAM ≈ 200 cafés)**, with the option to expand regionally after product validation.
+
+---
+
+### 1.4. Sub-Markets (Romania)
+
+Within the Romanian specialty coffee market we can define several sub-segments:
+
+1. **Mature specialty shops in big cities**  
+   - ~120–140 cafés (Bucharest, Cluj, Timișoara, Iași, Brașov)  
+   - Already active on Instagram, some using physical punch cards or ad-hoc loyalty.
+
+2. **New or second-tier city cafés**  
+   - ~40–60 cafés  
+   - High interest in growing a community but limited budget for a custom app.
+
+3. **Small chains (2–5 locations)**  
+   - ~10–20 businesses  
+   - Strong need for cross-location analytics, unified loyalty and occupancy data.
+
+---
+
+### **2. Approximate Number of Players / Competitors**
+
+On the loyalty and café-tech market we can identify:
+
+- **Global / European digital loyalty apps (relevant to cafés)**  
+  - Roughly **8–12 apps** offering digital stamp cards or loyalty programs.  
+  - Examples: *Stamp Me, Selyo, GAWAPP, Mahalle, Yollty, SimpleLoyalty, BonusQR*, etc.
+
+- **Local (Romania) competitors**  
+  - **Stampino** – a Romanian multi-merchant digital stamp card app.  
+  - POS systems with built-in loyalty modules (indirect competitors).
+
+So, for your report you can state:
+
+> There are approximately **10–15 relevant competitors** at European level in the “digital loyalty for cafés” space and **1–2 notable competitors in Romania** on the multi-merchant loyalty segment.
+
+---
+
+### **3. Competition Overview & Estimated Market Shares**
+
+### 3.1. Main Competitors
+
+**Direct competitors** (same problem, similar target customers):
+
+1. **Stampino (Romania)**  
+   - Digital stamp cards, multi-merchant.  
+   - Focus on loyalty only (no occupancy, no advanced analytics, no specialty focus).  
+   - Estimated **~30–40 locations total**, some of them specialty coffee shops.
+
+2. **Stamp Me (Global)**  
+   - Digital stamp card app used by cafés, restaurants and small businesses.  
+   - Not focused on **specialty coffee** as a niche; more general loyalty.
+
+3. **Other digital loyalty platforms (Europe)**  
+   - *Selyo, GAWAPP, Mahalle, Yollty, BonusQR, SimpleLoyalty* etc.  
+   - Similar offering: digital loyalty cards & basic customer tracking.  
+   - Usually generic: restaurants, shops, beauty, retail – not specialty coffee only.
+
+**Indirect competitors**:
+
+4. **Large coffee chains with their own apps**  
+   - Starbucks Rewards, Costa Coffee, Caffè Nero, etc.  
+   - They show that digital coffee loyalty works, but their tools are not available to independent specialty cafés.
+
+---
+
+### 3.2. Estimated Market Shares – Romanian Specialty Segment
+
+Assuming **~200 specialty coffee shops** in Romania:
+
+- **Stampino**  
+  - If ~20–25 of their locations are specialty cafés, they cover roughly **10–15%** of the Romanian specialty market.
+
+- **Other global apps (Stamp Me, etc.)**  
+  - Likely a very small presence in Romanian specialty cafés: **under 5%**.
+
+- **No dedicated platform**  
+  - The majority of cafés currently use:
+    - Physical stamp cards,  
+    - No loyalty at all,  
+    - Or fragmented tools (WhatsApp groups, POS reports, Instagram).
+
+So the **market is highly fragmented**, with **no clear leader** on the niche:
+
+> “Digital loyalty + occupancy + analytics for independent specialty coffee shops in Romania.”
+
+This is exactly where Tassea positions itself.
+
+---
+
+### **4. Tassea’s Potential Market Share (Years 1–5)**
+
+We focus on the **Romanian SAM ≈ 200 specialty cafés**.
+
+### 4.1. Adoption Assumptions
+
+- **Year 1 – Pilot / Early adopters**
+  - Onboard interviewed cafés + a few others: **~6 cafés**  
+  - Market share: **~3%**
+
+- **Year 2 – Scaling in major cities**
+  - Strong presence in Bucharest + 1–2 major cities: **~20 cafés**  
+  - Market share: **~10%**
+
+- **Year 3 – Expansion in university cities**
+  - Consolidate in big hubs + new towns: **~40 cafés**  
+  - Market share: **~20%**
+
+- **Year 4 – Word-of-mouth and network effects**
+  - More cafés join after seeing results: **~70 cafés**  
+  - Market share: **~35%**
+
+- **Year 5 – Niche leadership**
+  - Tassea becomes “the default app” for specialty coffee loyalty in Romania: **~100 cafés**  
+  - Market share: **~50%**
+
+#### Table – Estimated Market Share
+
+| Year | Cafés Using Tassea | Market Share (of ~200 cafés) |
+|------|--------------------|------------------------------|
+| 1    | 6                  | ~3%                          |
+| 2    | 20                 | ~10%                         |
+| 3    | 40                 | ~20%                         |
+| 4    | 70                 | ~35%                         |
+| 5    | 100                | ~50%                         |
+
+These values are consistent with:
+- Clear user pain (67% do not use loyalty cards regularly, 100% frustration when losing them, 83% annoyed by crowds – from your survey).  
+- Lack of a strong, niche-specific competitor.  
+- Tassea’s extra features (occupancy, discovery, analytics) which give it a stronger value proposition than simple stamp apps.
+
+---
+
+### **5. Total Market Value & Value of Tassea’s Market Share (Years 1–5)**
+
+We keep the same assumptions:
+
+- **SAM Romania** ≈ 200 specialty cafés  
+- **Average revenue per café** = 1,320 €/year (110 €/month)
+
+### 5.1. Total Market Value for Tassea in Romania
+
+- 200 cafés × 1,320 €/year = **264,000 €/year**
+
+> This is the **maximum yearly revenue** Tassea could reach in Romania if it captured 100% of the SAM.
+
+---
+
+### 5.2. Tassea’s Expected Revenue per Year (Based on Market Share)
+
+Using the adoption numbers from Section 4:
+
+| Year | Cafés on Tassea | Revenue / Year (1,320 €/café) | Share of Total Market Value (~264,000 €/year) |
+|------|-----------------|-------------------------------|-----------------------------------------------|
+| 1    | 6               | ~7,920 €                      | ~3%                                           |
+| 2    | 20              | ~26,400 €                     | ~10%                                          |
+| 3    | 40              | ~52,800 €                     | ~20%                                          |
+| 4    | 70              | ~92,400 €                     | ~35%                                          |
+| 5    | 100             | ~132,000 €                    | ~50%                                          |
+
+### 5.3. Additional Upside – Regional Expansion (CEE)
+
+If from **Year 4–5** Tassea also sells in **Central & Eastern Europe**:
+
+- SAM CEE ≈ 600 cafés ⇢ 792,000 €/year market value  
+- Even a **5–10% penetration** (30–60 cafés) would add:
+
+  - 30 cafés × 1,320 €/year ≈ **39,600 €/year**  
+  - 60 cafés × 1,320 €/year ≈ **79,200 €/year**
+
+on top of the Romanian numbers.
+
+---
+
+### **6. Profitability Conclusion**
+
+### 6.1. Cost Structure (from your project)
+
+- Platform development and maintenance  
+- Cloud hosting and database services  
+- Design, marketing and branding  
+- Business partnerships and outreach  
+
+Assume:
+
+- **Fixed yearly costs** (small team, lean marketing, hosting): **~50,000–60,000 €/year**.  
+- **Variable costs** grow slowly with the number of cafés (support, infrastructure).
+
+### 6.2. Break-Even Point
+
+Based on the revenue projections:
+
+- **Years 1–2**  
+  - Revenue is still small (under 30,000 €/year).  
+  - Focus is on building the MVP, pilots and validating willingness to pay.
+
+- **Year 3**  
+  - Revenue ≈ 52,800 €/year.  
+  - Tassea is already **close to operational break-even** for a lean student/startup team.
+
+- **Years 4–5**  
+  - Year 4 ≈ 92,400 €/year  
+  - Year 5 ≈ 132,000 €/year  
+  - At this point the business can:
+    - Cover costs,  
+    - Reinvest in product and sales,  
+    - Potentially generate **significant profit**,  
+    - Start expansion into other countries.
+
+---
+
+### 6.3. Final Conclusion on Profitability
+
+- The **specialty coffee market** in Europe is growing fast, and digital tools for loyalty and analytics are still fragmented.  
+- In Romania, there is **no dominant digital loyalty platform** dedicated to independent specialty cafés.  
+- With a realistic adoption path (3% → 50% of the Romanian specialty market in 5 years), Tassea can reach:
+
+  - **Break-even around Year 3**,  
+  - **Strong profitability from Year 4 onwards**,  
+  - With additional upside if it expands into Central & Eastern Europe.
+
+## **Milestone Conclusion**  
+Based on the estimated market size, the number of competitors, the projected market share and the subscription business model, **Tassea has a realistic path to profitability within 3–4 years and solid profit potential in Years 4–5**, especially if regional expansion is successful.
 
 
 <!-- ## Summary
