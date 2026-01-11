@@ -1120,6 +1120,160 @@ Based on the revenue projections:
 Based on the estimated market size, the number of competitors, the projected market share and the subscription business model, **Tassea has a realistic path to profitability within 3–4 years and solid profit potential in Years 4–5**, especially if regional expansion is successful.
 
 
+---
+
+## **Milestone 7 – Minimum Viable Product (MVP)**
+
+For this milestone, our goal was to build a **minimum viable product** (or an early prototype) that is “just enough” to be used and to help us validate the most important assumption:
+
+> **Are people willing to use (and later pay for) a unified loyalty + discovery experience for specialty coffee shops?**
+
+At this stage, we are not trying to prove long-term retention. The MVP is designed to validate **initial adoption + willingness to pay** through early pilots, while creating a clear **feedback loop** for what to build next.
+
+---
+
+### **What we built (MVP scope) + why each part exists**
+
+#### **1) Sign in / Access flow**
+We implemented a simple sign-in screen so users can enter the app consistently and we can measure “activation” (how many people actually start using it). This also mirrors the real product need for personalization (loyalty progress, favourites, profile info).
+
+![Sign in screen](signin.png)
+
+**Motivation (MVP):**
+- **Initial value:** users can immediately access their loyalty wallet.
+- **Future benefit:** enables account-based features (favourites, reward history).
+- **Feedback loop:** activation rate + drop-off point to validate usability.
+
+---
+
+#### **2) Rewards (loyalty wallet)**
+The Rewards page aggregates progress across multiple cafés in one place, so users don’t need separate cards/apps. This was selected as the core “must-have” because it delivers the most direct value and supports willingness-to-pay testing.
+
+![Rewards list (no favourites set)](rewards_without_favourite.png)
+
+**Motivation (MVP):**
+- **Initial value:** one place to track points and rewards.
+- **Future benefit:** scalable to more cafés and reward types.
+- **Feedback loop:** how often users check progress, what cafés they engage with, what rewards they aim for.
+
+---
+
+#### **3) Favourite + second favourite system (partner loyalty + predictable customers)**
+We added a **Favourite** and **Second Favourite** café system to increase customer loyalty and to support our business partners. The purpose is to demonstrate to cafés that we can bring them **regular, repeated customers**, not just one-time visits.
+
+To reinforce this, we implemented a “faster rewards” incentive model:
+- **100% of redeemed loyalty points** count toward rewards at the **favourite café**
+- **85%** toward rewards at the **second favourite**
+- **70%** toward rewards at **any other café**
+
+This lets the client choose where they want to earn rewards fastest, while giving partner cafés stronger predictability and repeat traffic.
+
+We also support **two favourites** for real life usage: one café near **home** and one near **work**, so users can stay consistent and still feel rewarded wherever they typically buy coffee.
+
+![Rewards with favourites pinned first](rewards_favourites.png)
+
+**Motivation (MVP):**
+- **Initial value:** users can prioritize cafés they actually visit most.
+- **Business validation:** proves we can generate recurring customers for partners.
+- **Feedback loop:** we can measure favourite selection patterns + impact on reward redemption behaviour.
+
+---
+
+#### **4) Profile (manage favourites + “locked until claim” rule)**
+The Profile page displays the current selection and includes a clear rule:
+
+> **“You can change your selection after you claim a reward from your current favourite!”**
+
+This MVP rule was intentionally introduced to (1) make favourites meaningful (not random toggling) and (2) tie the feature to a measurable action (“claim reward”), which is useful for validation with café partners.
+
+![Profile - selecting favourites](select_favourite.png)
+
+![Profile - favourites saved + locked](selected_favourites.png)
+
+**Motivation (MVP):**
+- **Initial value:** transparent preferences + quick personalization.
+- **Future benefit:** enables targeting (events, offers) and deeper personalization later.
+- **Feedback loop:** how often people try to change favourites, whether lock improves completion of reward cycles.
+
+---
+
+#### **5) Your Card (QR)**
+We added a scannable QR-style card screen for checkout. This is essential to validate whether the “digital loyalty” experience feels practical in a real café environment.
+
+![Your Card (QR)](your_card.png)
+
+**Motivation (MVP):**
+- **Initial value:** a single loyalty card that can be shown instantly.
+- **Future benefit:** ready for integration with real POS / staff scanning flows.
+- **Feedback loop:** users can report friction (“too slow”, “confusing at checkout”) and cafés can validate feasibility.
+
+---
+
+#### **6) Discover (list + details)**
+Discover allows users to browse cafés and see quick decision info (distance, hours, basic status indicators). This is prototype-level discovery to test whether people want both loyalty + discovery in one place.
+
+![Discover page (list view)](discover_page.png)
+
+**Motivation (MVP):**
+- **Initial value:** helps users choose a café quickly, not just track rewards.
+- **Future benefit:** foundation for richer filters, personalization, and partner promotions.
+- **Feedback loop:** what users click, what info they look for first, whether discovery drives store choice.
+
+---
+
+#### **7) Discover (map placeholder)**
+We included a map-view placeholder to communicate the intended direction (interactive map with café locations), without overbuilding it before validating demand.
+
+![Discover map placeholder](discover_map.png)
+
+**Motivation (MVP):**
+- **Initial value:** communicates the product vision (location-based experience).
+- **Future benefit:** clear next-step feature if users ask for it.
+- **Feedback loop:** if users repeatedly try to use it, that signals map-view demand.
+
+---
+
+#### **8) Feed (prototype posts)**
+We added a lightweight feed with example posts (new beans, café event) because cafés already use social updates (Instagram/WhatsApp) and we want to test if users value these updates inside a loyalty/discovery app.
+
+![Feed with sample posts](feed.png)
+
+**Motivation (MVP):**
+- **Initial value:** users see what’s new without leaving the app.
+- **Future benefit:** supports partnerships (events, limited beans, promotions).
+- **Feedback loop:** which post types get attention (events vs. new beans) and whether this influences café choice.
+
+---
+
+### **What we deliberately did NOT build (yet)**
+
+To keep the MVP minimal and aligned with earlier validation, we postponed:
+- Café owner dashboard + analytics
+- Real-time occupancy from sensors/POS
+- Push notifications
+- Full social features (likes/comments/follow)
+- Payments/subscription billing inside the product
+
+These will only be prioritized after validating adoption and partner interest during pilot testing.
+
+---
+
+### **Planned MVP testing & feedback loop (next step)**
+
+We will test with early adopters (customers + a small set of partner cafés) using:
+- Short user interviews after usage
+- Café staff feedback on checkout flow
+- MVP metrics such as:
+  - Activation rate (sign-ins)
+  - Favourite/second favourite adoption rate
+  - Rewards page usage frequency
+  - Reward claim completion rate (especially at favourite café)
+  - Discover engagement
+  - Feed engagement by post type
+
+This milestone results in a working MVP/prototype that can be shown, tested, and iterated based on real feedback — not assumptions.
+
+
 <!-- ## Summary
 
 Through thorough customer discovery and behavioral validation, **Tassea** confirmed that the lack of a unified, digital loyalty experience is a real and recurring problem in the specialty coffee market.  
