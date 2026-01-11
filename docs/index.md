@@ -1137,7 +1137,7 @@ At this stage, we are not trying to prove long-term retention. The MVP is design
 #### **1) Sign in / Access flow**
 We implemented a simple sign-in screen so users can enter the app consistently and we can measure “activation” (how many people actually start using it). This also mirrors the real product need for personalization (loyalty progress, favourites, profile info).
 
-![Sign in screen](assets/signin.png)
+![Sign in screen](images/signin.png)
 
 **Motivation (MVP):**
 - **Initial value:** users can immediately access their loyalty wallet.
@@ -1149,7 +1149,7 @@ We implemented a simple sign-in screen so users can enter the app consistently a
 #### **2) Rewards (loyalty wallet)**
 The Rewards page aggregates progress across multiple cafés in one place, so users don’t need separate cards/apps. This was selected as the core “must-have” because it delivers the most direct value and supports willingness-to-pay testing.
 
-![Rewards list (no favourites set)](assets/rewards_without_favourite.png)
+![Rewards list (no favourites set)](images/rewards_without_favourite.png)
 
 **Motivation (MVP):**
 - **Initial value:** one place to track points and rewards.
@@ -1170,7 +1170,7 @@ This lets the client choose where they want to earn rewards fastest, while givin
 
 We also support **two favourites** for real life usage: one café near **home** and one near **work**, so users can stay consistent and still feel rewarded wherever they typically buy coffee.
 
-![Rewards with favourites pinned first](assets/rewards_favourites.png)
+![Rewards with favourites pinned first](images/rewards_favourites.png)
 
 **Motivation (MVP):**
 - **Initial value:** users can prioritize cafés they actually visit most.
@@ -1186,9 +1186,9 @@ The Profile page displays the current selection and includes a clear rule:
 
 This MVP rule was intentionally introduced to (1) make favourites meaningful (not random toggling) and (2) tie the feature to a measurable action (“claim reward”), which is useful for validation with café partners.
 
-![Profile - selecting favourites](assets/select_favourite.png)
+![Profile - selecting favourites](images/select_favourite.png)
 
-![Profile - favourites saved + locked](assets/selected_favourites.png)
+![Profile - favourites saved + locked](images/selected_favourites.png)
 
 **Motivation (MVP):**
 - **Initial value:** transparent preferences + quick personalization.
@@ -1200,7 +1200,7 @@ This MVP rule was intentionally introduced to (1) make favourites meaningful (no
 #### **5) Your Card (QR)**
 We added a scannable QR-style card screen for checkout. This is essential to validate whether the “digital loyalty” experience feels practical in a real café environment.
 
-![Your Card (QR)](assets/your_card.png)
+![Your Card (QR)](images/your_card.png)
 
 **Motivation (MVP):**
 - **Initial value:** a single loyalty card that can be shown instantly.
@@ -1212,7 +1212,7 @@ We added a scannable QR-style card screen for checkout. This is essential to val
 #### **6) Discover (list + details)**
 Discover allows users to browse cafés and see quick decision info (distance, hours, basic status indicators). This is prototype-level discovery to test whether people want both loyalty + discovery in one place.
 
-![Discover page (list view)](assets/discover_page.png)
+![Discover page (list view)](images/discover_page.png)
 
 **Motivation (MVP):**
 - **Initial value:** helps users choose a café quickly, not just track rewards.
@@ -1224,7 +1224,7 @@ Discover allows users to browse cafés and see quick decision info (distance, ho
 #### **7) Discover (map placeholder)**
 We included a map-view placeholder to communicate the intended direction (interactive map with café locations), without overbuilding it before validating demand.
 
-![Discover map placeholder](assets/discover_map.png)
+![Discover map placeholder](images/discover_map.png)
 
 **Motivation (MVP):**
 - **Initial value:** communicates the product vision (location-based experience).
@@ -1236,7 +1236,7 @@ We included a map-view placeholder to communicate the intended direction (intera
 #### **8) Feed (prototype posts)**
 We added a lightweight feed with example posts (new beans, café event) because cafés already use social updates (Instagram/WhatsApp) and we want to test if users value these updates inside a loyalty/discovery app.
 
-![Feed with sample posts](assets/feed.png)
+![Feed with sample posts](images/feed.png)
 
 **Motivation (MVP):**
 - **Initial value:** users see what’s new without leaving the app.
@@ -1279,5 +1279,10 @@ This milestone results in a working MVP/prototype that can be shown, tested, and
 Through thorough customer discovery and behavioral validation, **Tassea** confirmed that the lack of a unified, digital loyalty experience is a real and recurring problem in the specialty coffee market.  
 The proposed solution provides measurable value for both customers and business owners, laying the foundation for a sustainable and scalable platform.  
 Built on validated insights, **Tassea** stands as a smart, data-driven bridge between coffee lovers and their favorite cafés.
+
+pip install -U mkdocs mkdocs-material ghp-import
+mkdocs build --clean
+ghp-import -n -p -f site
+
 
 --- -->
