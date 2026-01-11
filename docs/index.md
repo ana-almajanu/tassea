@@ -1137,7 +1137,10 @@ At this stage, we are not trying to prove long-term retention. The MVP is design
 #### **1) Sign in / Access flow**
 We implemented a simple sign-in screen so users can enter the app consistently and we can measure “activation” (how many people actually start using it). This also mirrors the real product need for personalization (loyalty progress, favourites, profile info).
 
-![Sign in screen](images/signin.png)
+<figure class="shot">
+  <img src="images/signin.png" alt="Sign in screen">
+  <figcaption>Sign in / Access</figcaption>
+</figure>
 
 **Motivation (MVP):**
 - **Initial value:** users can immediately access their loyalty wallet.
@@ -1149,7 +1152,11 @@ We implemented a simple sign-in screen so users can enter the app consistently a
 #### **2) Rewards (loyalty wallet)**
 The Rewards page aggregates progress across multiple cafés in one place, so users don’t need separate cards/apps. This was selected as the core “must-have” because it delivers the most direct value and supports willingness-to-pay testing.
 
-![Rewards list (no favourites set)](images/rewards_without_favourite.png)
+<figure class="shot">
+  <img src="images/rewards_without_favourite.png" alt="Rewards list">
+  <figcaption>Rewards list (no favourites set)</figcaption>
+</figure>
+
 
 **Motivation (MVP):**
 - **Initial value:** one place to track points and rewards.
@@ -1170,7 +1177,11 @@ This lets the client choose where they want to earn rewards fastest, while givin
 
 We also support **two favourites** for real life usage: one café near **home** and one near **work**, so users can stay consistent and still feel rewarded wherever they typically buy coffee.
 
-![Rewards with favourites pinned first](images/rewards_favourites.png)
+<figure class="shot">
+  <img src="images/rewards_favourites.png" alt="Rewards with favourites pinned first">
+  <figcaption>Rewards with favourites pinned first</figcaption>
+</figure>
+
 
 **Motivation (MVP):**
 - **Initial value:** users can prioritize cafés they actually visit most.
@@ -1186,9 +1197,17 @@ The Profile page displays the current selection and includes a clear rule:
 
 This MVP rule was intentionally introduced to (1) make favourites meaningful (not random toggling) and (2) tie the feature to a measurable action (“claim reward”), which is useful for validation with café partners.
 
-![Profile - selecting favourites](images/select_favourite.png)
+<figure class="shot">
+  <img src="images/select_favourite.png" alt="Profile - favourites saved + locked">
+  <figcaption>Profile - selecting favourites</figcaption>
+</figure>
 
 ![Profile - favourites saved + locked](images/selected_favourites.png)
+
+<figure class="shot">
+  <img src="images/selected_favourites.png" alt="Profile - favourites saved + locked">
+  <figcaption>Profile - favourites saved + locked</figcaption>
+</figure>
 
 **Motivation (MVP):**
 - **Initial value:** transparent preferences + quick personalization.
@@ -1202,6 +1221,11 @@ We added a scannable QR-style card screen for checkout. This is essential to val
 
 ![Your Card (QR)](images/your_card.png)
 
+<figure class="shot">
+  <img src="images/your_card.png" alt="Your Card (QR)">
+  <figcaption>Your Card (QR)</figcaption>
+</figure>
+
 **Motivation (MVP):**
 - **Initial value:** a single loyalty card that can be shown instantly.
 - **Future benefit:** ready for integration with real POS / staff scanning flows.
@@ -1212,7 +1236,10 @@ We added a scannable QR-style card screen for checkout. This is essential to val
 #### **6) Discover (list + details)**
 Discover allows users to browse cafés and see quick decision info (distance, hours, basic status indicators). This is prototype-level discovery to test whether people want both loyalty + discovery in one place.
 
-![Discover page (list view)](images/discover_page.png)
+<figure class="shot">
+  <img src="images/discover_page.png" alt="Discover page (list view)">
+  <figcaption>Discover page (list view)</figcaption>
+</figure>
 
 **Motivation (MVP):**
 - **Initial value:** helps users choose a café quickly, not just track rewards.
@@ -1224,7 +1251,10 @@ Discover allows users to browse cafés and see quick decision info (distance, ho
 #### **7) Discover (map placeholder)**
 We included a map-view placeholder to communicate the intended direction (interactive map with café locations), without overbuilding it before validating demand.
 
-![Discover map placeholder](images/discover_map.png)
+<figure class="shot">
+  <img src="images/discover_map.png" alt="Discover map placeholder">
+  <figcaption>Discover map placeholder</figcaption>
+</figure>
 
 **Motivation (MVP):**
 - **Initial value:** communicates the product vision (location-based experience).
@@ -1236,7 +1266,10 @@ We included a map-view placeholder to communicate the intended direction (intera
 #### **8) Feed (prototype posts)**
 We added a lightweight feed with example posts (new beans, café event) because cafés already use social updates (Instagram/WhatsApp) and we want to test if users value these updates inside a loyalty/discovery app.
 
-![Feed with sample posts](images/feed.png)
+<figure class="shot">
+  <img src="images/feed.png" alt="Feed with sample posts">
+  <figcaption>Feed with sample posts</figcaption>
+</figure>
 
 **Motivation (MVP):**
 - **Initial value:** users see what’s new without leaving the app.

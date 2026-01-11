@@ -95,3 +95,22 @@ a:hover {
   object-fit: cover;
   box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
+/* Fix screenshot rendering (Milestone 7) */
+figure.shot img{
+  width: 100% !important;
+  max-width: 420px;        /* optional */
+  height: auto !important;
+  border-radius: 12px !important;  /* not circle */
+  object-fit: contain !important;
+  display: block;
+  margin: 12px 0;
+  box-shadow: 0 8px 24px rgba(0,0,0,.12);
+}
+figure.shot{
+  margin: 16px 0 24px;
+}
+figure.shot figcaption{
+  font-size: 0.9em;
+  opacity: .75;
+  margin-top: 6px;
+}
