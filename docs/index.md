@@ -1202,7 +1202,6 @@ This MVP rule was intentionally introduced to (1) make favourites meaningful (no
   <figcaption>Profile - selecting favourites</figcaption>
 </figure>
 
-![Profile - favourites saved + locked](images/selected_favourites.png)
 
 <figure class="shot">
   <img src="images/selected_favourites.png" alt="Profile - favourites saved + locked">
@@ -1219,7 +1218,6 @@ This MVP rule was intentionally introduced to (1) make favourites meaningful (no
 #### **5) Your Card (QR)**
 We added a scannable QR-style card screen for checkout. This is essential to validate whether the “digital loyalty” experience feels practical in a real café environment.
 
-![Your Card (QR)](images/your_card.png)
 
 <figure class="shot">
   <img src="images/your_card.png" alt="Your Card (QR)">
