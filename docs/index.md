@@ -22,8 +22,8 @@ This page outlines the project concept, team, problem, solution and business mod
 |------|------|--------|-------|
 | Ana Gabriela Almăjanu | Project Manager & Backend Developer | [ana.almajanu@gmail.com](mailto:ana.almajanu@gmail.com) | ![Ana](images/ana2.jpeg) |
 | Irene Mihaela Mușat | UI/UX Designer & Frontend Developer | [irenemiha@gmail.com](mailto:irenemiha@gmail.com) | ![Irene](images/irene.jpeg) |
-| Cristian Constantin | Mobile App Developer & Creative Director | [constantincristian05@icloud.com](mailto:constantincristian05@icloud.com) | ![Cristian](images/cristian.jpeg) |
 | Andrei Mihai Cosmin | Backend Engineer & Database Specialist | [andreimihaicosmin@yahoo.com](mailto:andreimihaicosmin@yahoo.com) | ![Cosmin](images/cosmin.jpeg) |
+| Cristian Constantin | Mobile App Developer & Creative Director | [constantincristian05@icloud.com](mailto:constantincristian05@icloud.com) | ![Cristian](images/cristian.jpeg) |
 
 > ☕ The team combines expertise in software development, UX design and business management to create a useful and scalable product.
 
@@ -833,7 +833,7 @@ The wireframes and user flows have been updated directly based on real user feed
 
 
 --- 
---- 
+
 
 ## **Milestone 6 - Market Research**
 
@@ -1134,175 +1134,391 @@ At this stage, we are not trying to prove long-term retention. The MVP is design
 
 ### **What we built (MVP scope) + why each part exists**
 
+### **Customer MVP (what the end user sees)**
+
 #### **1) Sign in / Access flow**
-We implemented a simple sign-in screen so users can enter the app consistently and we can measure “activation” (how many people actually start using it). This also mirrors the real product need for personalization (loyalty progress, favourites, profile info).
+We implemented a simple sign-in entry so a user can quickly start using the MVP and we can measure “activation” (how many people actually start using it). This also allows basic personalization (profile info, favourites).
 
 <figure class="shot">
-  <img src="images/signin.png" alt="Sign in screen">
+  <img src="images/customer/signin.jpeg" alt="Sign in screen">
   <figcaption>Sign in / Access</figcaption>
 </figure>
 
 **Motivation (MVP):**
-- **Initial value:** users can immediately access their loyalty wallet.
-- **Future benefit:** enables account-based features (favourites, reward history).
-- **Feedback loop:** activation rate + drop-off point to validate usability.
+
+- **Initial value:** users can immediately access their unified loyalty wallet.
+
+- **Future benefit:** enables account-based features (favourites, history, personalized feed later).
+
+- **Feedback loop:** activation rate + drop-off points to validate clarity and usability.
 
 ---
 
-#### **2) Rewards (loyalty wallet)**
-The Rewards page aggregates progress across multiple cafés in one place, so users don’t need separate cards/apps. This was selected as the core “must-have” because it delivers the most direct value and supports willingness-to-pay testing.
+#### **2) Rewards (unified loyalty wallet)**
+The Rewards page aggregates progress across multiple cafés in one place, so users don’t need separate cards/apps. This is the core “must-have” because it delivers the most direct value and supports willingness-to-pay testing.
+
+In our MVP logic:
+
+- **Reward goal = 100 points**
+
+- **1 purchase = 10 base points**, then a multiplier applies depending on the café (see favourites system).
 
 <figure class="shot">
-  <img src="images/rewards_without_favourite.png" alt="Rewards list">
-  <figcaption>Rewards list (no favourites set)</figcaption>
+  <img src="images/customer/rewards_menu.jpeg" alt="Rewards list screen">
+  <figcaption>Rewards list (overview across cafés)</figcaption>
 </figure>
 
-
 **Motivation (MVP):**
-- **Initial value:** one place to track points and rewards.
-- **Future benefit:** scalable to more cafés and reward types.
-- **Feedback loop:** how often users check progress, what cafés they engage with, what rewards they aim for.
+
+- **Initial value:** one place to track progress + rewards for multiple cafés.
+
+- **Future benefit:** scalable to more cafés, reward types, and real POS validation.
+
+- **Feedback loop:** what cafés users engage with, what rewards they target, and how often they return.
 
 ---
 
-#### **3) Favourite + second favourite system (partner loyalty + predictable customers)**
-We added a **Favourite** and **Second Favourite** café system to increase customer loyalty and to support our business partners. The purpose is to demonstrate to cafés that we can bring them **regular, repeated customers**, not just one-time visits.
+#### **3) Café “card” → dedicated café screen (details + actions)**
+Instead of keeping cafés as static cards, tapping a café opens a **dedicated café screen**. This makes the MVP feel closer to a real product and helps validate what info users want per café.
+
+On this screen, users can:
+
+- see reward progress clearly (toward 100 pts),
+
+- simulate purchases,
+
+- claim a reward when ready.
+
+<figure class="shot">
+  <img src="images/customer/cafe_menu.jpeg" alt="Café details screen">
+  <figcaption>Café detail screen (reward progress + actions)</figcaption>
+</figure>
+
+**Motivation (MVP):**
+
+- **Initial value:** reduces confusion (“what does this café give me?”) and keeps actions context-specific.
+
+- **Future benefit:** the same screen can later host real menus, offers, events, and partner promotions.
+
+- **Feedback loop:** which cafés get opened most + which actions get used (purchase simulation vs claim).
+
+---
+
+#### **4) Favourite + Second Favourite system (loyalty + predictable customers)**
+We added a **Favourite** and **Second Favourite** café system to increase customer loyalty and to support our business partners.
 
 To reinforce this, we implemented a “faster rewards” incentive model:
-- **100% of redeemed loyalty points** count toward rewards at the **favourite café**
+
+- **100% of points** count toward rewards at the **favourite café**
+
 - **85%** toward rewards at the **second favourite**
+
 - **70%** toward rewards at **any other café**
 
-This lets the client choose where they want to earn rewards fastest, while giving partner cafés stronger predictability and repeat traffic.
-
-We also support **two favourites** for real life usage: one café near **home** and one near **work**, so users can stay consistent and still feel rewarded wherever they typically buy coffee.
-
 <figure class="shot">
-  <img src="images/rewards_favourites.png" alt="Rewards with favourites pinned first">
-  <figcaption>Rewards with favourites pinned first</figcaption>
-</figure>
-
-
-**Motivation (MVP):**
-- **Initial value:** users can prioritize cafés they actually visit most.
-- **Business validation:** proves we can generate recurring customers for partners.
-- **Feedback loop:** we can measure favourite selection patterns + impact on reward redemption behaviour.
-
----
-
-#### **4) Profile (manage favourites + “locked until claim” rule)**
-The Profile page displays the current selection and includes a clear rule:
-
-> **“You can change your selection after you claim a reward from your current favourite!”**
-
-This MVP rule was intentionally introduced to (1) make favourites meaningful (not random toggling) and (2) tie the feature to a measurable action (“claim reward”), which is useful for validation with café partners.
-
-<figure class="shot">
-  <img src="images/select_favourite.png" alt="Profile - favourites saved + locked">
-  <figcaption>Profile - selecting favourites</figcaption>
-</figure>
-
-
-<figure class="shot">
-  <img src="images/selected_favourites.png" alt="Profile - favourites saved + locked">
-  <figcaption>Profile - favourites saved + locked</figcaption>
+  <img src="images/customer/rewards_ready.jpeg" alt="Rewards with favourites pinned first">
+  <figcaption>Rewards with favourites pinned first + “Ready” state</figcaption>
 </figure>
 
 **Motivation (MVP):**
-- **Initial value:** transparent preferences + quick personalization.
-- **Future benefit:** enables targeting (events, offers) and deeper personalization later.
-- **Feedback loop:** how often people try to change favourites, whether lock improves completion of reward cycles.
+
+- **Initial value:** users can prioritize the cafés they actually visit most.
+
+- **Business validation:** supports the partner promise (repeat customers, not just discovery).
+
+- **Feedback loop:** we can measure how favourites influence purchase behaviour and reward redemption.
 
 ---
 
-#### **5) Your Card (QR)**
+#### **5) Profile (manage favourites + independent “locked until claim” rule)**
+The Profile page displays and explains the favourites system clearly (base points + multiplier). The key MVP rule is:
+
+> **You can only change Favourite after you claim a reward at Favourite.  
+> You can only change Second Favourite after you claim a reward at Second Favourite.**  
+> (They are independent.)
+
+<figure class="shot">
+  <img src="images/customer/profile_menu.jpeg" alt="Profile selecting favourites">
+  <figcaption>Profile – selecting favourites</figcaption>
+</figure>
+
+<figure class="shot">
+  <img src="images/customer/rewards_locked.jpeg" alt="Profile favourites saved and locked">
+  <figcaption>Profile – favourites saved + locked</figcaption>
+</figure>
+
+**Motivation (MVP):**
+
+- **Initial value:** users understand how to earn faster + can customize quickly.
+
+- **Future benefit:** sets up meaningful personalization (offers/events tied to favourites later).
+
+- **Feedback loop:** how often users try to change favourites + whether the lock rule feels fair or frustrating.
+
+---
+
+#### **6) Your Card (QR)**
 We added a scannable QR-style card screen for checkout. This is essential to validate whether the “digital loyalty” experience feels practical in a real café environment.
 
-
 <figure class="shot">
-  <img src="images/your_card.png" alt="Your Card (QR)">
+  <img src="images/customer/your_card.jpeg" alt="Your Card (QR)">
   <figcaption>Your Card (QR)</figcaption>
 </figure>
 
 **Motivation (MVP):**
-- **Initial value:** a single loyalty card that can be shown instantly.
-- **Future benefit:** ready for integration with real POS / staff scanning flows.
-- **Feedback loop:** users can report friction (“too slow”, “confusing at checkout”) and cafés can validate feasibility.
+
+- **Initial value:** one card users can show instantly.
+
+- **Future benefit:** ready for integration with real staff scanning flows.
+
+- **Feedback loop:** user + staff feedback on speed, clarity, and friction at checkout.
 
 ---
 
-#### **6) Discover (list + details)**
-Discover allows users to browse cafés and see quick decision info (distance, hours, basic status indicators). This is prototype-level discovery to test whether people want both loyalty + discovery in one place.
+#### **7) Discover (clickable cafés + decision signals)**
+Discover allows users to browse cafés and tap into their details screen. We show quick decision info (distance, hours) and prototype “signals” such as occupancy and a **“Laptops OK”** badge.
 
 <figure class="shot">
-  <img src="images/discover_page.png" alt="Discover page (list view)">
+  <img src="images/customer/discover_menu.jpeg" alt="Discover page (list view)">
   <figcaption>Discover page (list view)</figcaption>
 </figure>
 
 **Motivation (MVP):**
-- **Initial value:** helps users choose a café quickly, not just track rewards.
-- **Future benefit:** foundation for richer filters, personalization, and partner promotions.
-- **Feedback loop:** what users click, what info they look for first, whether discovery drives store choice.
+
+- **Initial value:** helps users choose a café, not just track rewards.
+
+- **Future benefit:** foundation for filters, personalization, and partner visibility.
+
+- **Feedback loop:** what users click, what info matters most (hours, laptops, occupancy).
 
 ---
 
-#### **7) Discover (map placeholder)**
-We included a map-view placeholder to communicate the intended direction (interactive map with café locations), without overbuilding it before validating demand.
+#### **8) Discover (map placeholder)**
+We included a map-view placeholder to communicate the intended direction (interactive café map), without overbuilding it before validating demand.
 
+<!-- keep your existing map placeholder image if you have it -->
 <figure class="shot">
   <img src="images/discover_map.png" alt="Discover map placeholder">
   <figcaption>Discover map placeholder</figcaption>
 </figure>
 
 **Motivation (MVP):**
-- **Initial value:** communicates the product vision (location-based experience).
-- **Future benefit:** clear next-step feature if users ask for it.
-- **Feedback loop:** if users repeatedly try to use it, that signals map-view demand.
+
+- **Initial value:** communicates the location-based product vision.
+
+- **Future benefit:** clear next-step feature if users request it.
+
+- **Feedback loop:** if users repeatedly expect to use it, that signals map demand.
 
 ---
 
-#### **8) Feed (prototype posts)**
-We added a lightweight feed with example posts (new beans, café event) because cafés already use social updates (Instagram/WhatsApp) and we want to test if users value these updates inside a loyalty/discovery app.
+#### **9) Feed (prototype posts + post details + café link)**
+We added a lightweight feed with example posts (new beans, café event) to test whether users value updates inside the app. Posts can open a detail view and can link back to the relevant café.
 
 <figure class="shot">
-  <img src="images/feed.png" alt="Feed with sample posts">
-  <figcaption>Feed with sample posts</figcaption>
+  <img src="images/customer/feed_menu.jpeg" alt="Feed with sample posts">
+  <figcaption>Feed (sample posts)</figcaption>
+</figure>
+
+<figure class="shot">
+  <img src="images/customer/post_in_feed.jpeg" alt="Post details screen">
+  <figcaption>Post details (with “View café” link)</figcaption>
 </figure>
 
 **Motivation (MVP):**
-- **Initial value:** users see what’s new without leaving the app.
+
+- **Initial value:** users see what’s new without leaving the loyalty/discovery ecosystem.
+
 - **Future benefit:** supports partnerships (events, limited beans, promotions).
-- **Feedback loop:** which post types get attention (events vs. new beans) and whether this influences café choice.
+
+- **Feedback loop:** which post types users care about (events vs product drops) and whether it influences where they go.
 
 ---
 
-### **What we deliberately did NOT build (yet)**
+### **Employee / Staff MVP (what the café team uses)**
 
-To keep the MVP minimal and aligned with earlier validation, we postponed:
-- Café owner dashboard + analytics
-- Real-time occupancy from sensors/POS
-- Push notifications
-- Full social features (likes/comments/follow)
-- Payments/subscription billing inside the product
+To validate real-world feasibility, we also built an **employee-side MVP** that covers the minimum operational loop: “identify customer → add points / redeem → update café status → communicate updates”.
+
+<figure class="shot">
+  <img src="images/employee/staff_login.jpeg" alt="Staff login screen">
+  <figcaption>Staff login (role + café selection)</figcaption>
+</figure>
+
+Core staff MVP features include:
+
+1. **Scan customer QR / Member ID** (camera scanner + manual fallback) to load a customer at checkout.
+
+<figure class="shot">
+  <img src="images/employee/scan.jpeg" alt="Scan screen">
+  <figcaption>Scan customer (camera + manual fallback)</figcaption>
+</figure>
+
+2. **Checkout actions:** add purchases (adds points) and **redeem reward** when the customer reaches the goal.
+
+<figure class="shot">
+  <img src="images/employee/checkout.jpeg" alt="Checkout screen">
+  <figcaption>Checkout (add points + redeem)</figcaption>
+</figure>
+
+3. **Occupancy update (once per hour):** set Low / Medium / High so customers can see how busy a café is in Discover.
+
+<figure class="shot">
+  <img src="images/employee/occupancy.jpeg" alt="Occupancy screen">
+  <figcaption>Occupancy update (Low / Medium / High)</figcaption>
+</figure>
+
+4. **Post to Feed:** staff can publish a post (event / new beans / announcement), which appears in the customer feed.
+
+<figure class="shot">
+  <img src="images/employee/post.jpeg" alt="Create post screen">
+  <figcaption>Create post (publishes to customer feed)</figcaption>
+</figure>
+
+5. **Statistics page (MVP-level):** basic counters based on staff actions (scans, purchases, redemptions) to support business validation.
+
+<figure class="shot">
+  <img src="images/employee/stats.jpeg" alt="Stats screen">
+  <figcaption>Stats (MVP counters)</figcaption>
+</figure>
+
+6. **Settings page (read-only for staff):** visible, but not editable, to reflect real operational constraints.
+
+<figure class="shot">
+  <img src="images/employee/settings.jpeg" alt="Settings screen">
+  <figcaption>Settings (read-only in MVP)</figcaption>
+</figure>
+
+<figure class="shot">
+  <img src="images/employee/admin_tools.jpeg" alt="Admin Tools settings screen">
+  <figcaption>Settings (read-only in MVP)</figcaption>
+</figure>
+
+7. **Logout:** to support shared devices or shift handover.
+
+**Motivation (MVP):**
+
+- **Initial value:** proves the concept can work at the counter without relying on “magic”.
+
+- **Future benefit:** direct base for POS integration and partner dashboards.
+
+- **Feedback loop:** staff friction points (speed, clarity), and business interest in basic stats.
+
+---
+
+<!-- ### **What we deliberately did NOT build (yet)**
+
+To keep the MVP minimal and aligned with validation, we postponed:
+- full café owner dashboard with advanced analytics
+- payments/subscription billing inside the product
+- real-time occupancy via sensors/POS
+- push notifications
+- social features (likes/comments/follow)
+- complex admin tooling + permissions
 
 These will only be prioritized after validating adoption and partner interest during pilot testing.
 
----
+--- -->
 
-### **Planned MVP testing & feedback loop (next step)**
+### **Planned MVP usage validation (next step)**
 
-We will test with early adopters (customers + a small set of partner cafés) using:
-- Short user interviews after usage
-- Café staff feedback on checkout flow
-- MVP metrics such as:
-  - Activation rate (sign-ins)
-  - Favourite/second favourite adoption rate
-  - Rewards page usage frequency
-  - Reward claim completion rate (especially at favourite café)
-  - Discover engagement
-  - Feed engagement by post type
+The goal of this milestone is to get the MVP into the hands of users and confirm real usage and (later) willingness to pay.
 
-This milestone results in a working MVP/prototype that can be shown, tested, and iterated based on real feedback — not assumptions.
+We will run a small pilot (customers + partner cafés) and document the process on the Fiki with evidence, including:
+
+- **Customer proof:** number of users who try it, what they do first, and whether they’d use it again next time they buy coffee
+
+- **Partner proof:** owner/manager feedback + willingness to run a pilot (ex: agreement to test for 2–4 weeks, or a signed intent)
+
+- **Operational proof:** staff feedback on checkout and whether it’s realistic during busy hours
+
+We will track MVP-level signals such as:
+
+- activation rate (sign-ins)
+
+- favourite adoption rate + impact on reward claims
+
+- reward redemption completion rate
+
+- Discover engagement (taps into café details)
+
+- Feed engagement (post views and café clicks)
+
+- staff usability feedback (scan vs manual entry, time at checkout)
+
+- partner interest in continuing / paying after pilot
+
+This milestone results in an MVP that can be shown, used, and validated through real interactions and documented evidence — not assumptions.
+
+## **Milestone 8 – First Sale**
+
+**Goal: Get people to use the MVP.**
+
+For this milestone we put the MVP in the hands of users/customers to confirm real usage and willingness to adopt the product.
+Below is evidence from a user interview, documenting feedback after interacting with the MVP.
+
+### **Evidence – MVP User Interview**
+
+??? note "Tassea – MVP User Interview – (Participant) – Feedback"
+
+    1. Cât de ușor ți se pare să înțelegi ce face aplicația în primele 30 de secunde?
+
+    Foarte ușor, e totul super intuitiv. Nu cred că ar fi probleme pentru o persoană cu cunoștințe tehnice minime.
+
+    2. Care e primul lucru pe care ai încerca să-l folosești (Rewards / Discover / Card / Feed / Profile) și de ce?
+
+    Cred că Discover, doar pentru că aș vrea să știu. Mi se pare super tare funcționalitatea de „Laptops OK” pentru fiecare cafenea. Presupun că este vorba de existența prizelor lângă mese și așa mai departe. Discover, pentru chestia asta cu laptop-urile, mi se pare destul de cool.
+
+    3. Cât de util ți se pare „Rewards wallet” (toate cafenelele într-un singur loc)? Ai folosi asta în viața reală?
+
+    Da, mi se pare super util. Decât să fie 100 de aplicații pentru fiecare cafenea, e super ok.
+
+    4. În mod realist, ai arăta un cod QR la casă? Ți se pare rapid sau incomod?
+
+    Da, mi se pare foarte rapid, super ok. Deja, oricum, cred că urmează să se meargă pe chestia asta în foarte multe locații și magazine.
+
+    5. Ce ți se pare neclar sau enervant la ecranul „Your Card”?
+
+    N-aș ști să răspund aici, adică nu cred că are nevoie de mai mult. E super simplu, super ok de înțeles. Doar să nu fie probleme cu scanarea codului QR, dar nu cred că ar fi, ecranul fiind alb, codul fiind negru.
+
+    6. Sistemul de „Favourite + Second Favourite” ți se pare ușor de înțeles?
+
+    Da.
+
+    7. Dacă primești mai repede recompensa la cafeneaua favorită (100% vs 85% vs 70%), ți-ar schimba asta comportamentul? Cum?
+
+    Da, în sensul că aș rămâne loială cafenelei favorite. Cred că este destul de helpful și pentru cafenele, și pentru client.
+
+    8. Ideea de 2 favourite (una aproape de casă și una aproape de muncă) ți se pare utilă sau inutilă?
+
+    Mi se pare foarte utilă, e chiar super ok. Da, cred că a fost gândită cum trebuie.
+
+    9. Regula „poți schimba favourite doar după ce revendici o recompensă” ți se pare corectă sau frustrantă? De ce?
+
+    Pot să înțeleg conceptul, mai ales pentru cafenea în sine, ca să se asigure că au fidelitate, dar cred că ar fi ok și o opțiune de a avea, per client, o șansă pe lună să renunți la punctele astea, în cazul în care, spre exemplu, cafeneaua de lângă casa ta se închide.
+
+    10. Când intri în Rewards, faptul că favourite apar primele te ajută sau nu contează?
+
+    Da.
+
+    11. Feed-ul cu postări (boabe de cafea noi / evenimente) ți se pare relevant sau ai ignora complet?
+
+    Nu l-aș ignora. Nu pot să zic că mi s-ar părea enervant, chiar dacă nu l-aș folosi, dar eu personal l-aș folosi.
+
+    12. Dacă ar lipsi o singură funcție din aplicație, care ar fi aceea care te-ar face să nu o mai folosești?
+
+    Cred că funcția de Discover.
+
+    13. Pe o scară de la 1 la 10, cât de probabil e să folosești această aplicație de fiecare dată când îți iei cafea?
+
+    Aș zice 10.
+
+    14. Ce ai schimba prima dată ca să fie „mai folosibil” (mai rapid / mai clar / mai frumos)?
+
+    Nimic.
+
+
+For the First Sale milestone, we focused on getting our MVP into the hands of a real potential user to validate early adoption and confirm that the core value proposition is immediately understandable and desirable. The interview feedback suggests the product is highly intuitive within the first 30 seconds, even for someone with only minimal technical knowledge, which is critical for lowering onboarding friction. The participant’s strongest interest was the Discover feature—especially the “Laptops OK” signal per café—indicating that contextual, practical information can be a key driver for exploration and repeat use. At the same time, the user described the Rewards wallet as genuinely useful in real life because it eliminates the pain of juggling many separate loyalty apps, reinforcing that the MVP solves a real consolidation problem. Importantly, the participant stated they would realistically scan a QR code at checkout and rated their likelihood of using the app every time they buy coffee as a 10/10, which supports our claim that the proposed flow is fast and acceptable in a real retail environment. Finally, the feedback validates our “Favourite + Second Favourite” logic (home/work) as easy to understand and behavior-shaping, while also highlighting a practical edge case: users may need a limited option to change favourites (e.g., monthly reset) if a café closes. Overall, this milestone provides concrete evidence that the MVP delivers value, is easy to use, and can drive repeated behavior—exactly what we need before pushing toward paid partnerships and transactional validation.
+
 
 
 <!-- ## Summary
